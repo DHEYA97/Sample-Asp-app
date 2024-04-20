@@ -1,0 +1,64 @@
+﻿@model IEnumerable<DepartmentVM>
+@{
+    ViewData["Title"] = "Department";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/lib/datatables/datatables.bundle.css" />
+}
+<div class="container">
+    <div class="d-flex justify-content-between p-4 mb-3">
+        <h2>Department</h2>
+        <div>
+            <a href="javascript:;" data-title="Add Department" data-url="/Department/Create" class="js-render-model btn  btn-primary fw-bold px-4 py-2">
+                <i class="fa-solid fa-plus"></i>
+                Add
+            </a>
+        </div>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="card shadow-sm  card-flush">
+            <div class="card-body">
+                <h5 class="card-title w-25 mb-3 text-center ms-auto">
+                    <input type="search" class="form-control ds-input search-input" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;">
+                </h5>
+                <div class="table-responsive">
+                    <table class="table table-row-dashed table-row-gray-300 gy-3 align-middle js-datatabels">
+                        <thead>
+                            <tr class="fw-bold fs-6 text-gray-800">
+                                <th>@Html.DisplayNameFor(d => d.Code)</th>
+                                <th>@Html.DisplayNameFor(d => d.Name)</th>
+                                <th>@Html.DisplayNameFor(d => d.CreatedOn)</th>
+                                <th>@Html.DisplayNameFor(d => d.LastUpdatedOn)</th>
+                                <th>@Html.DisplayNameFor(d => d.IsDeleted)</th>
+                                <th>Details</th>
+                                <th>Update</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var dep in Model)
+                            {
+                                <partial name="_DepartmentRow" model="dep" />
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="bg-warning mt-5 text-center">
+            <p class="fs-2">Not Found :(</p>
+        </div>
+    }
+</div>
+@Html.AntiForgeryToken()
+@section Plugins {
+    <script src="~/lib/datatables/datatables.bundle.js"></script>
+}
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,40 @@
+﻿@model DepartmentVM
+<form asp-action="@(Model?.Id > 0 ? "Edit" : "Create")"
+      data-ajax-method="post"
+      data-ajax="true"
+      data-ajax-success="onModelSuccess"
+      data-ajax-failure="onModelFailure"
+      >
+    @if (Model?.Id > 0)
+    {
+        <input type="hidden" asp-for="Id" />
+    }
+    <div class="mb-5">
+        <div class="form-floating mb-2">
+            <input type="text" class="form-control" placeholder="Code" asp-for="Code" />
+            <label asp-for="Code"></label>
+        </div>
+        <span asp-validation-for="Code" class="text-danger d-block"></span>
+    </div>
+
+    <div class="mb-5">
+        <div class="form-floating mb-2">
+            <input type="text" class="form-control" placeholder="Name" asp-for="Name" />
+            <label asp-for="Name"></label>
+        </div>
+        <span asp-validation-for="Name" class="text-danger d-block"></span>
+    </div>
+    <div class="form-check form-check-solid form-check-custom form-switch my-4">
+        <input class="form-check-input" type="checkbox" asp-for="IsDeleted">
+        <label class="form-check-label" asp-for="IsDeleted"></label>
+        <span asp-validation-for="IsDeleted" class="text-danger d-block"></span>
+    </div>
+    <div class="modal-footer px-0">
+        <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">
+            <span>
+                Save
+            </span>
+        </button>
+    </div>
+</form>

@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@6.5.1",
+      "destination": "wwwroot/lib/font-awesome/",
+      "files": [
+        "css/all.min.css",
+        "js/all.min.js",
+        "sprites/brands.svg",
+        "sprites/regular.svg",
+        "sprites/solid.svg",
+        "webfonts/fa-brands-400.ttf",
+        "webfonts/fa-brands-400.woff2",
+        "webfonts/fa-regular-400.ttf",
+        "webfonts/fa-regular-400.woff2",
+        "webfonts/fa-solid-900.ttf",
+        "webfonts/fa-solid-900.woff2",
+        "webfonts/fa-v4compatibility.ttf",
+        "webfonts/fa-v4compatibility.woff2"
+      ]
+    },
+    {
+      "library": "jquery-ajax-unobtrusive@3.2.6",
+      "destination": "wwwroot/lib/jquery-ajax-unobtrusive/",
+      "files": [
+        "jquery.unobtrusive-ajax.min.js"
+      ]
+    },
+    {
+      "library": "sweetalert2@11.10.6",
+      "destination": "wwwroot/lib/sweetalert2/",
+      "files": [
+        "sweetalert2.css",
+        "sweetalert2.all.min.js"
+      ]
+    },
+    {
+      "library": "select2@4.0.13",
+      "destination": "wwwroot/lib/select2/",
+      "files": [
+        "js/select2.min.js",
+        "css/select2.min.css"
+      ]
+    },
+    {
+      "library": "datepicker@1.0.10",
+      "destination": "wwwroot/lib/datepicker/",
+      "files": [
+        "datepicker.min.js"
+      ]
+    },
+    {
+      "library": "bootstrap-daterangepicker@3.0.5",
+      "destination": "wwwroot/lib/bootstrap-daterangepicker/",
+      "files": [
+        "daterangepicker.min.js",
+        "daterangepicker.min.css",
+        "moment.min.js"
+      ]
+    }
+  ]
+}

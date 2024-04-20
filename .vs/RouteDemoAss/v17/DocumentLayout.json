@@ -1,0 +1,781 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\C#\\RouteDemoAss\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\employee\\_employeerow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\employee\\_employeerow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\models\\employee\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\models\\employee\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_8AAEOGU0_VE_SERVER/RouteDBAsp/True/SqlTable/dbo.Employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\helper\\documentsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\helper\\documentsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\consts\\systemconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\consts\\systemconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\employee\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\employee\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\consts\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\consts\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\department\\_departmentrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\department\\_departmentrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\models\\department\\departmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\models\\department\\departmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\department\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\wwwroot\\lib\\select2\\js\\select2.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\wwwroot\\lib\\select2\\js\\select2.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\services\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\services\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\model\\baseentitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\model\\baseentitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\17ce62f2b50ff9e186ed0c2e6fcd8a7bf4be7dbec32fbf4e8b790dcb8d68bbe1\\ActionMethodExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_8AAEOGU0_VE_SERVER/RouteDBAsp/True/SqlTable/dbo.DepartmentEmployees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_8AAEOGU0_VE_SERVER/Bookify.Web/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\interfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\interfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\migrations\\20240323190825_addimagecolumntoemployeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\migrations\\20240323190825_addimagecolumntoemployeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\services\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\services\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|f:\\c#\\routedemoass\\data.bl\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023E0C87-69C1-431F-B350-EE50E47DABF0}|Data.BL\\Data.BL.csproj|solutionrelative:data.bl\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\employee\\_card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\employee\\_card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\employee\\_form.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\employee\\_form.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\employee\\_card.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\employee\\_card.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\data\\configration\\employeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\data\\configration\\employeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\department\\_card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\department\\_card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\views\\department\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\views\\department\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\migrations\\20240320233207_addemolyeeanddepartmentemployeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\migrations\\20240320233207_addemolyeeanddepartmentemployeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\data\\configration\\departmentemployeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\data\\configration\\departmentemployeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\model\\departmentemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\model\\departmentemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|f:\\c#\\routedemoass\\data.dl\\data\\configration\\departmentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54CF34EA-AF9C-4E6C-B972-FE578A3397F2}|Data.DL\\Data.DL.csproj|solutionrelative:data.dl\\data\\configration\\departmentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|f:\\c#\\routedemoass\\data.pl\\filters\\ajaxonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4876EB-52FC-491E-804B-7CD9A7DF2BBE}|Data.PL\\Data.PL.csproj|solutionrelative:data.pl\\filters\\ajaxonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Data.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:02:43.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeVM.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Models\\Employee\\EmployeeVM.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Models\\Employee\\EmployeeVM.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Models\\Employee\\EmployeeVM.cs",
+              "RelativeToolTip": "Data.PL\\Models\\Employee\\EmployeeVM.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:04:24.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Model\\Employee.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\Employee.cs",
+              "RelativeToolTip": "Data.DL\\Model\\Employee.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T23:09:38.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentSetting.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Helper\\DocumentSetting.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Helper\\DocumentSetting.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Helper\\DocumentSetting.cs",
+              "RelativeToolTip": "Data.PL\\Helper\\DocumentSetting.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:27:06.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T18:47:16.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Employees [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_8AAEOGU0_VE_SERVER/RouteDBAsp/True/SqlTable/dbo.Employees.sql",
+              "ToolTip": "dbo.Employees [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-23T20:11:01.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_EmployeeRow.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_EmployeeRow.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Employee\\_EmployeeRow.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_EmployeeRow.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Employee\\_EmployeeRow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T13:09:11.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Employee\\_Form.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Form.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Employee\\_Form.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T13:14:54.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SystemConst.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Consts\\SystemConst.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Consts\\SystemConst.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Consts\\SystemConst.cs",
+              "RelativeToolTip": "Data.PL\\Consts\\SystemConst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:49:49.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Mapping\\MappingProfile.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Data.PL\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:43.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Errors.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Consts\\Errors.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Consts\\Errors.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Consts\\Errors.cs",
+              "RelativeToolTip": "Data.PL\\Consts\\Errors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:15:11.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\List.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Employee\\List.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\List.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Employee\\List.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswB0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T12:33:32.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_DepartmentRow.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\_DepartmentRow.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Department\\_DepartmentRow.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\_DepartmentRow.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Department\\_DepartmentRow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T20:24:14.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Data.PL\\wwwroot\\js\\site.js",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Data.PL\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-18T18:48:11.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentVM.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Models\\Department\\DepartmentVM.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Models\\Department\\DepartmentVM.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Models\\Department\\DepartmentVM.cs",
+              "RelativeToolTip": "Data.PL\\Models\\Department\\DepartmentVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:46.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\List.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Department\\List.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\List.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Department\\List.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T20:23:34.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "select2.min.js",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\wwwroot\\lib\\select2\\js\\select2.min.js",
+              "RelativeDocumentMoniker": "Data.PL\\wwwroot\\lib\\select2\\js\\select2.min.js",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\wwwroot\\lib\\select2\\js\\select2.min.js",
+              "RelativeToolTip": "Data.PL\\wwwroot\\lib\\select2\\js\\select2.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-23T20:20:19.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\Repository.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Services\\Repository.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\Repository.cs",
+              "RelativeToolTip": "Data.BL\\Services\\Repository.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwDUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:20:18.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseEntitiy.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\BaseEntitiy.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Model\\BaseEntitiy.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\BaseEntitiy.cs",
+              "RelativeToolTip": "Data.DL\\Model\\BaseEntitiy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:12.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Interfaces\\IRepository.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Data.BL\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAArwBMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:19:41.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Services\\EmployeeService.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Data.BL\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwD8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T10:00:45.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Data.PL\\wwwroot\\css\\site.css",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Data.PL\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-24T01:27:45.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ControllerActionInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\4f9d1c51880accfe0baa2489491fa85e22827e5652c347195241a04ca5856d6f\\ControllerActionInvoker.cs [Read Only]",
+              "ViewState": "AQIAAOQAAAAAAAAAAAArwPgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T01:03:40.178Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbo.DepartmentEmployees [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_8AAEOGU0_VE_SERVER/RouteDBAsp/True/SqlTable/dbo.DepartmentEmployees.sql",
+              "ToolTip": "dbo.DepartmentEmployees [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-24T00:33:15.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ActionMethodExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\17ce62f2b50ff9e186ed0c2e6fcd8a7bf4be7dbec32fbf4e8b790dcb8d68bbe1\\ActionMethodExecutor.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\17ce62f2b50ff9e186ed0c2e6fcd8a7bf4be7dbec32fbf4e8b790dcb8d68bbe1\\ActionMethodExecutor.cs [Read Only]",
+              "ViewState": "AQIAAFMAAAAAAAAAAAArwGEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T00:52:51.253Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Services\\DepartmentService.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "Data.BL\\Services\\DepartmentService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:20:42.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_8AAEOGU0_VE_SERVER/Bookify.Web/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-23T20:10:11.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "Data.PL\\appsettings.json",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\appsettings.json",
+              "RelativeToolTip": "Data.PL\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-23T20:10:46.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "Data.BL\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAD4vxIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T09:59:18.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Interfaces\\IDepartmentService.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IDepartmentService.cs",
+              "RelativeToolTip": "Data.BL\\Interfaces\\IDepartmentService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:20:11.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Department.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\Department.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Model\\Department.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\Department.cs",
+              "RelativeToolTip": "Data.DL\\Model\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:08.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Startup.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Startup.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Startup.cs",
+              "RelativeToolTip": "Data.PL\\Startup.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwDAAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:23:00.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240323190825_addImageColumnToEmployeeTable.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Migrations\\20240323190825_addImageColumnToEmployeeTable.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Migrations\\20240323190825_addImageColumnToEmployeeTable.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Migrations\\20240323190825_addImageColumnToEmployeeTable.cs",
+              "RelativeToolTip": "Data.DL\\Migrations\\20240323190825_addImageColumnToEmployeeTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:08:26.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Services\\UnitOfWork.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Services\\UnitOfWork.cs",
+              "RelativeToolTip": "Data.BL\\Services\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:21:10.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Controllers\\DepartmentController.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Data.PL\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwG0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T09:50:46.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data.BL\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.BL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Data.BL\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:18:21.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Card.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Card.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Employee\\_Card.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Card.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Employee\\_Card.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T13:19:19.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Form.cshtml.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Form.cshtml.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Employee\\_Form.cshtml.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Form.cshtml.cs",
+              "RelativeToolTip": "Data.PL\\Views\\Employee\\_Form.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:31:35.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Card.cshtml.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Card.cshtml.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Employee\\_Card.cshtml.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Employee\\_Card.cshtml.cs",
+              "RelativeToolTip": "Data.PL\\Views\\Employee\\_Card.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T13:31:09.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmployeeConfigration.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\Configration\\EmployeeConfigration.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Data\\Configration\\EmployeeConfigration.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\Configration\\EmployeeConfigration.cs",
+              "RelativeToolTip": "Data.DL\\Data\\Configration\\EmployeeConfigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T23:24:42.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data.DL\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:30.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_Card.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\_Card.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Department\\_Card.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\_Card.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Department\\_Card.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T20:22:54.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\_Form.cshtml",
+              "RelativeDocumentMoniker": "Data.PL\\Views\\Department\\_Form.cshtml",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Views\\Department\\_Form.cshtml",
+              "RelativeToolTip": "Data.PL\\Views\\Department\\_Form.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T20:24:05.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240320233207_addEmolyeeAndDepartmentEmployeeTable.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Migrations\\20240320233207_addEmolyeeAndDepartmentEmployeeTable.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Migrations\\20240320233207_addEmolyeeAndDepartmentEmployeeTable.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Migrations\\20240320233207_addEmolyeeAndDepartmentEmployeeTable.cs",
+              "RelativeToolTip": "Data.DL\\Migrations\\20240320233207_addEmolyeeAndDepartmentEmployeeTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T23:32:07.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DepartmentEmployeeConfigration.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\Configration\\DepartmentEmployeeConfigration.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Data\\Configration\\DepartmentEmployeeConfigration.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\Configration\\DepartmentEmployeeConfigration.cs",
+              "RelativeToolTip": "Data.DL\\Data\\Configration\\DepartmentEmployeeConfigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T23:26:20.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DepartmentEmployee.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\DepartmentEmployee.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Model\\DepartmentEmployee.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Model\\DepartmentEmployee.cs",
+              "RelativeToolTip": "Data.DL\\Model\\DepartmentEmployee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T23:12:42.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DepartmentConfigration.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\Configration\\DepartmentConfigration.cs",
+              "RelativeDocumentMoniker": "Data.DL\\Data\\Configration\\DepartmentConfigration.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.DL\\Data\\Configration\\DepartmentConfigration.cs",
+              "RelativeToolTip": "Data.DL\\Data\\Configration\\DepartmentConfigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:21:27.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AjaxOnlyAttribute.cs",
+              "DocumentMoniker": "F:\\C#\\RouteDemoAss\\Data.PL\\Filters\\AjaxOnlyAttribute.cs",
+              "RelativeDocumentMoniker": "Data.PL\\Filters\\AjaxOnlyAttribute.cs",
+              "ToolTip": "F:\\C#\\RouteDemoAss\\Data.PL\\Filters\\AjaxOnlyAttribute.cs",
+              "RelativeToolTip": "Data.PL\\Filters\\AjaxOnlyAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:22:32.433Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

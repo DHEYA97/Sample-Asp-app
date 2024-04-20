@@ -1,0 +1,26 @@
+﻿@model EmployeeVM
+<div class="card text-center">
+    <div class="card-header">
+        Employee Number : @Model.Id
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Employee Name : @Model.Name</h5>
+        <p class="card-text">Employee Address : @Model.Adress</p>
+        <p class="card-text">Employee Phone : @Model.Phone</p>
+        <p class="card-text">Employee Email : @Model.Email</p>
+        <p class="card-text">Employee Age : @Model.Age</p>
+        <p class="card-text">Employee Salary : @Model.Salary</p>
+        <p class="p-2 rounded align-middle bg-@(Model.IsActive ? "success" : "warning")  js-status">
+            @(Model.IsDeleted ? "Active" : "Not Active")
+        </p>
+        <p class="card-text">Employee HiaringDate : @Model.HiaringDate</p>
+        <p class="card-text">Employee CreatedOn : @Model.CreatedOn</p>
+        <p class="p-2 rounded align-middle bg-@(Model.IsDeleted ? "danger" : "success")  js-status">
+            @(Model.IsDeleted ? "Deleted" : "Available")
+        </p>
+        <p class="card-text">Employee LastUpdatedOn : @Model.LastUpdatedOn</p>
+    </div>
+</div>
+<div class="modal-footer px-0">
+        <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+</div>

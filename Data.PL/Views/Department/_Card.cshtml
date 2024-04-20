@@ -1,0 +1,16 @@
+﻿@model DepartmentVM
+<div class="card text-center">
+    <div class="card-header">
+        Department Number : @Model.Id
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Department Name : @Model.Name</h5>
+        <p class="card-text">Department Code : @Model.Code</p>
+        <span class="p-2 rounded align-middle bg-@(Model.IsDeleted ? "danger" : "success")  js-status">
+            @(Model.IsDeleted ? "Deleted" : "Available")
+        </span>
+    </div>
+</div>
+<div class="modal-footer px-0">
+        <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+</div>

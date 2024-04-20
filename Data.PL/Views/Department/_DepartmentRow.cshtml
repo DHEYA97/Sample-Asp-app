@@ -1,0 +1,36 @@
+﻿@model DepartmentVM
+<tr>
+    <th>@Model.Code</th>
+    <th>@Model.Name</th>
+    <th>@Model.CreatedOn</th>
+    <th class="js-last-updated">@Model.LastUpdatedOn</th>
+    <th>
+        <span class="p-2 rounded align-middle bg-@(Model.IsDeleted ? "danger" : "success")  js-status">
+            @(Model.IsDeleted ? "Deleted" : "Available")
+        </span>
+    </th>
+    <td>
+        <a href="javascript:;" class="btn btn-warning js-render-model" data-title="Details Department" data-url="/Department/Details/@Model.Id">
+            <i class="fa-solid fa-eye"></i>
+            Detail
+        </a>
+    </td>
+    <td>
+        <a href="javascript:;" class="js-render-model btn btn-primary" data-title="Edit Department" data-url="/Department/Edit/@Model.Id" data-updated="true">
+            <i class="fa-solid fa-pen-to-square"></i>
+            Update
+        </a>
+    </td>
+    <td>
+        <a href="javascript:;" class="btn btn-@(Model.IsDeleted ? "success": "danger") js-delete" data-title="Delete Department" data-url="/Department/Delete/@Model.Id" data-deleted="true">
+            <i class="fa-solid fa-trash"></i>
+            <span>
+                Change to
+                <br />
+                <span class="js-status-text">
+                    @(Model.IsDeleted ? "Available" : "Deleted")
+                </span>
+            </span>
+        </a>
+    </td>
+</tr>  

@@ -1,0 +1,25 @@
+﻿@using Data.BL.Interfaces;
+@inject IUnitOfWork _UnitOfWork
+@{
+    ViewData["Title"] = "Route";
+}
+<div class="container text-center">
+    <h2 class="my-5">Route Dashbord</h2>
+    <div class="text-center bg-white w-25 p-5 fw-bold my-5 mx-auto">
+        @DateTime.Now.ToString("dd-MM-yyyy")
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4 offset-md-2 me-2 bg-primary rounded shadow py-5 fw-bold">
+            <a asp-controller="Department" class="text-center text-white">
+                <h1 class="display-6 my-5 text-white">Department</h1>
+                <div id="count" class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="@_UnitOfWork.DepartmentService.GetAllDepartmentAsync().Result.Count()">0</div>
+            </a>
+        </div>
+        <div class="col-md-4 ms-2 bg-success  rounded shadow py-5 fw-bold">
+            <a asp-controller="Employee" class="text-center text-white">
+                <h1 class="display-6 my-5 text-white">Employee</h1>
+                <div id="count" class="fs-2 fw-bold" data-kt-countup="true" data-kt-countup-value="@_UnitOfWork.EmployeeService.GetAllEmployeeAsync().Result.Count()">0</div>
+            </a>
+        </div>
+    </div>
+</div>

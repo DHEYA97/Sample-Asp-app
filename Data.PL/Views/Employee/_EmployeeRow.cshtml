@@ -1,0 +1,70 @@
+﻿@model EmployeeVM
+@using Data.PL.Consts;
+<tr>
+    <th class="text-center">
+        <div class="text-center">
+            <img src="@($"{SystemConst.ImageFolder}/" + (string.IsNullOrEmpty(Model.Image) ? "No_Image.png" :Model.Image))" class="rounded w-50" alt="@Model.Name">
+        </div>
+    </th>
+    <th>@Model.Name</th>
+    <th>@Model.Adress</th>
+    <th>@Model.Phone</th>
+    <th>@Model.Email</th>
+    <th>@Model.Salary</th>
+    <th>
+        <span class="p-2 rounded align-middle bg-@(Model.IsActive ? "success" : "warning")">
+            @(Model.IsActive ? "Active" : "Not Active")
+        </span>
+    </th>
+    <th>@Model.HiaringDate</th>
+    <th>
+        <span class="p-2 rounded align-middle bg-@(Model.IsDeleted ? "danger" : "success")  js-status">
+            @(Model.IsDeleted ? "Deleted" : "Available")
+        </span>
+    </th>
+    <th>@Model.LastUpdatedOn</th>
+     <td class="text-end">
+        <a href="#" class="btn btn-light btn-active-light-primary btn-sm" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+            Actions
+            <!--begin::Svg Icon | path: icons/duotune/arrows/arr072.svg-->
+            <span class="svg-icon svg-icon-5 m-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="currentColor"></path>
+                </svg>
+            </span>
+            <!--end::Svg Icon-->
+        </a>
+        <!--begin::Menu 3-->
+            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true" style="">
+                <!--begin::Menu item-->
+                <div class="menu-item px-3">
+                <a href="javascript:;" class="js-render-model btn btn-warning" data-title="Details Employee" data-url="/Employee/Details/@Model.Id">
+                        <i class="fa-solid fa-eye"></i>
+                        Detail
+                    </a>
+                </div>
+            <div class="menu-item px-3">
+                <a href="javascript:;" class="js-render-model btn btn-primary" data-title="Edit Employee" data-url="/Employee/Edit/@Model.Id" data-updated="true">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    Edite
+                </a>
+            </div>
+            <div class="menu-item px-3">
+                <a href="javascript:;" class="btn btn-@(Model.IsDeleted ? "success": "danger") js-delete" data-title="Delete Employee" data-url="/Employee/Delete/@Model.Id" data-deleted="true">
+                    <i class="fa-solid fa-trash"></i>
+                    <span>
+                        Change to
+                        <br />
+                        <span class="js-status-text">
+                            @(Model.IsDeleted ? "Available" : "Deleted")
+                        </span>
+                    </span>
+                </a>
+                </div>
+                <!--end::Menu item-->
+            </div>
+            <!--end::Menu 3-->
+            <!--end::Menu-->
+        </div>
+    </td>
+</tr>  

@@ -1,0 +1,99 @@
+﻿@model EmployeeVM
+
+<form asp-action="@(Model?.Id > 0 ? "Edit" : "Create")"
+              data-ajax-method="post"
+              data-ajax="true"
+              data-ajax-success="onModelSuccess"
+              data-ajax-failure="onModelFailure"
+              enctype="multipart/form-data">
+            @if (Model?.Id > 0)
+            {
+                <input type="hidden" asp-for="Id" />
+            }
+            <div class="mb-1">
+                <div class="form-floating mb-1">
+                    <input type="text" class="form-control" placeholder="Name" asp-for="Name" />
+                    <label asp-for="Name"></label>
+                </div>
+                <span asp-validation-for="Name" class="text-danger d-block"></span>
+            </div>
+
+            <div class="mb-1">
+                <div class="form-floating mb-1">
+                    <input type="text" class="form-control" placeholder="Adress" asp-for="Adress" />
+                    <label asp-for="Adress"></label>
+                </div>
+                <span asp-validation-for="Adress" class="text-danger d-block"></span>
+            </div>
+
+            <div class="mb-1">
+                <div class="form-floating mb-1">
+                    <input class="form-control" placeholder="Phone" asp-for="Phone" />
+                    <label asp-for="Phone"></label>
+                </div>
+                <span asp-validation-for="Phone" class="text-danger d-block"></span>
+            </div>
+
+            <div class="mb-1">
+                <div class="form-floating mb-1">
+                    <input class="form-control" placeholder="Email" asp-for="Email" />
+                    <label asp-for="Email"></label>
+                </div>
+                <span asp-validation-for="Email" class="text-danger d-block"></span>
+            </div>
+
+            <div class="mb-1">
+                <div class="form-floating mb-1">
+                    <input class="form-control" placeholder="Age" asp-for="Age" />
+                    <label asp-for="Age"></label>
+                </div>
+                <span asp-validation-for="Age" class="text-danger d-block"></span>
+            </div>
+
+            <div>
+                <div class="form-floating mb-1">
+                    <input class="form-control" placeholder="Age" asp-for="Salary" />
+                    <label asp-for="Salary"></label>
+                </div>
+                <span asp-validation-for="Salary" class="text-danger d-block"></span>
+            </div>
+
+            <div class="form-check form-check-solid form-check-custom form-switch my-4">
+                <input class="form-check-input" type="checkbox" asp-for="IsActive">
+                <label class="form-check-label" asp-for="IsActive"></label>
+                <span asp-validation-for="IsActive" class="text-danger d-block"></span>
+            </div>
+
+            <div id="myModal" class="my-4" tabindex="-1" role="dialog" aria-hidden="true">
+                <label asp-for="SelectedDepartments"></label>
+                <select multiple class="form-select form-select-solid js-select2" data-placeholder="Select Departments" asp-for="SelectedDepartments" asp-items="@Model.Departments">
+                </select>
+                <span asp-validation-for="SelectedDepartments" class="text-danger d-block"></span>
+            </div>
+
+            <div class="my-2">
+                <div class="form-floating mb-1">
+                    <input type="date" class="form-control form-control-solid js-datepicke" id="js-datepicke" placeholder="Hiaring Date" asp-for="HiaringDate" />
+                    <label asp-for="HiaringDate"></label>
+                </div>
+                <span asp-validation-for="HiaringDate" class="text-danger d-block"></span>
+            </div>
+
+
+            <input type="file" asp-for="ImageFile" accept=".png, .jpg, .jpeg" />
+
+            <div class="form-check form-check-solid form-check-custom form-switch my-4">
+                <input class="form-check-input" type="checkbox" asp-for="IsDeleted">
+                <label class="form-check-label" asp-for="IsDeleted"></label>
+                <span asp-validation-for="IsDeleted" class="text-danger d-block"></span>
+            </div>
+
+            <div class="modal-footer px-0">
+                <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">
+                    <span>
+                        Save
+                    </span>
+                </button>
+            </div>
+        </form>
